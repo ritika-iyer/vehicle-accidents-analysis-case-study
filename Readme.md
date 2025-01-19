@@ -135,7 +135,7 @@ vehicle_accident_case_study/
 │   ├── no_damages_insurance/                      
 │   └── top_5_vehicles_speeding/ 
 ├── outputs_screenshots/
-│    └── ..                                         # screenshots of all analysis runs as tested on 2025-01-20 (Windows OS)
+│    └── ..                         # screenshots of all analysis runs as tested on 2025-01-20 (Windows OS)
 ├── src/
 │   ├── vehicle_accident_analysis/
 │   │   └── accident_analysis.py
