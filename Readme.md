@@ -3,6 +3,7 @@
 This is a Pyspark Application built for the analysis of vehicle accidents data in the US and computing several statistics concerning these accidents and the demographics involved.
 
 This application is config-driven, modularized with classes, functions and follows coding best-practices. 
+Docstrings are written in the sphinx docstring style (suitable for generation of sphinx docs).
 
 ## Pre-requisites
 Listed here the pre-requisites for running this application:
