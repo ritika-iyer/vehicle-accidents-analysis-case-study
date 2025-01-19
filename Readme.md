@@ -2,9 +2,9 @@
 
 This is a Pyspark Application built for the analysis of vehicle accidents data in the US and computing several statistics concerning these accidents and the demographics involved.
 
-This application is config-driven, modular and follows coding best-practices. 
+This application is config-driven, modularized with classes, functions and follows coding best-practices. 
 
-## System Pre-requisites
+## Pre-requisites
 Listed here the pre-requisites for running this application:
 
 - Python 3.10 +
@@ -135,13 +135,13 @@ vehicle_accident_case_study/
 │   ├── no_damages_insurance/                      
 │   └── top_5_vehicles_speeding/ 
 ├── outputs_screenshots/
-│    └── ..                                                # screenshots of all analysis runs as tested on 2025-01-20 (Windows OS)
+│    └── ..                                         # screenshots of all analysis runs as tested on 2025-01-20 (Windows OS)
 ├── src/
-│   └── vehicle_accident_analysis/
-│       └── accident_analysis.py
+│   ├── vehicle_accident_analysis/
+│   │   └── accident_analysis.py
 │   ├── constants.py
 │   ├── main.py
-│   └── utils.py  
+│   └── utils.py
 ├── BCG_Case_Study_CarCrash_Updated_Questions.docx
 ├── Data Dictionary.xlsx
 ├── requirements.txt
