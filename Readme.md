@@ -77,6 +77,9 @@ In addition to this, you may also configure the app-name of the sparksession tha
 
 ## Running the Application using spark-submit command:
 
+Before running the spark-submit command for analysis execution, you can also check the details for running the commands, as discussed below.
+First, navigate to the project folder (vehicle_accidents_analysis_case_study).
+
 For information on the command to be run and the custom arguments set for running the application, you may use the following command:
 
 `spark-submit --conf spark.pyspark.python=python --conf spark.pyspark.driver.python=python src/main.py --help`
